@@ -1045,3 +1045,110 @@ LogConfig: Set CVar [[r.setres:1280x720]]
 [2025.06.16-21.28.36:385][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
 [2025.06.16-21.28.36:385][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
 [2025.06.16-21.28.36:397][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.16-21.28.37:533][  0]LogAudioMixer: Display: Using Audio Hardware Device Speaker (2- Realtek(R) Audio)
+[2025.06.16-21.28.37:533][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.16-21.28.37:534][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.16-21.28.37:534][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.16-21.28.37:535][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.06.16-21.28.37:535][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.06.16-21.28.37:538][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.06.16-21.28.37:539][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2025.06.16-21.28.37:539][  0]LogInit: FAudioDevice initialized with ID 1.
+[2025.06.16-21.28.37:539][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2025.06.16-21.28.37:541][  0]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 1
+[2025.06.16-21.28.37:548][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2025.06.16-21.28.37:556][  0]LogInit: Undo buffer set to 256 MB
+[2025.06.16-21.28.37:556][  0]LogInit: Transaction tracking system initialized
+[2025.06.16-21.28.37:649][  0]LocalizationService: Localization service is disabled
+[2025.06.16-21.28.37:823][  0]LogFileCache: Scanning file cache for directory 'C:/Users/samwe/OneDrive/Documents/GitHub/assignment-one/platformerassignment/Content/' took 0.00s
+[2025.06.16-21.28.37:863][  0]LogNNEDenoiser: Ray Tracing is not enabled, therefore NNEDenoiser is not registered!
+[2025.06.16-21.28.37:871][  0]LogPython: Python enabled via CVar 'Engine.Python.IsEnabledByDefault'
+[2025.06.16-21.28.37:871][  0]LogPython: Using Python 3.11.8
+[2025.06.16-21.28.37:955][  0]LogPython: Display: No pip-enabled plugins with python dependencies found, skipping
+[2025.06.16-21.28.38:268][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2025.06.16-21.28.38:415][  0]LogEditorDataStorage: Initializing
+[2025.06.16-21.28.38:419][  0]LogEditorDataStorage: Initialized
+[2025.06.16-21.28.38:426][  0]LogCore: Display: GameplayInsights module auto-connecting to local trace server...
+[2025.06.16-21.28.38:557][  0]LogAssetRegistry: Display: Triggering cache save on discovery complete
+[2025.06.16-21.28.38:561][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2025.06.16-21.28.38:580][  0]SourceControl: Revision control is disabled
+[2025.06.16-21.28.38:580][  0]LogUnrealEdMisc: Loading editor; pre map load, took 40.109
+[2025.06.16-21.28.38:582][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/OpenWorld.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.06.16-21.28.38:584][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2025.06.16-21.28.38:584][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.16-21.28.38:601][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.16-21.28.38:603][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2025.06.16-21.28.38:612][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_1'.
+[2025.06.16-21.28.38:612][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled_1
+[2025.06.16-21.28.38:614][  0]LogWorldPartition: ULevel::OnLevelLoaded(Untitled_1)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.06.16-21.28.38:614][  0]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.06.16-21.28.38:614][  0]LogWorldPartition: UWorldPartition::Initialize : World = /Temp/Untitled_1.Untitled_1, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.06.16-21.28.38:749][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.06.16-21.28.38:758][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.06.16-21.28.38:763][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.06.16-21.28.38:768][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [AppleTV]
+[2025.06.16-21.28.38:768][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [IOS]
+[2025.06.16-21.28.38:768][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.06.16-21.28.38:774][  0]LogDeviceProfileManager: Display: Deviceprofile None not found.
+[2025.06.16-21.28.38:886][  0]LogWorldPartition: Display: WorldPartition initialize took 271.896 ms
+[2025.06.16-21.28.39:058][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.06.16-21.28.39:073][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2025.06.16-21.28.39:074][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.06.16-21.28.39:075][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.329ms to complete.
+[2025.06.16-21.28.39:086][  0]LogUnrealEdMisc: Total Editor Startup Time, took 40.616
+[2025.06.16-21.28.39:235][  0]LogPlacementMode: Display: The Asset Registry is not yet fully loaded so some placeable classes might be missing.
+[2025.06.16-21.28.39:679][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.16-21.28.39:880][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.16-21.28.40:070][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.16-21.28.40:269][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.16-21.28.40:656][  0]LogAssetRegistry: Display: Asset registry cache written as 66.6 MiB to ../../../../../../Users/samwe/OneDrive/Documents/GitHub/assignment-one/platformerassignment/Intermediate/CachedAssetRegistry_*.bin
+[2025.06.16-21.28.40:734][  0]LogPakFile: Initializing PakPlatformFile
+[2025.06.16-21.28.40:735][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2025.06.16-21.28.40:735][  0]LogPakFile: Initializing PakPlatformFile
+[2025.06.16-21.28.40:736][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2025.06.16-21.28.40:736][  0]LogPakFile: Initializing PakPlatformFile
+[2025.06.16-21.28.40:737][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2025.06.16-21.28.40:737][  0]LogPakFile: Initializing PakPlatformFile
+[2025.06.16-21.28.40:738][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2025.06.16-21.28.40:739][  0]LogPakFile: Initializing PakPlatformFile
+[2025.06.16-21.28.40:740][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2025.06.16-21.28.40:740][  0]LogPakFile: Initializing PakPlatformFile
+[2025.06.16-21.28.40:741][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2025.06.16-21.28.40:741][  0]LogPakFile: Initializing PakPlatformFile
+[2025.06.16-21.28.40:741][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2025.06.16-21.28.40:742][  0]LogPakFile: Initializing PakPlatformFile
+[2025.06.16-21.28.40:742][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2025.06.16-21.28.40:743][  0]LogPakFile: Initializing PakPlatformFile
+[2025.06.16-21.28.40:743][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2025.06.16-21.28.40:744][  0]LogPakFile: Initializing PakPlatformFile
+[2025.06.16-21.28.40:744][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2025.06.16-21.28.41:136][  0]LogSlate: Took 0.009139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.06.16-21.28.41:165][  0]LogSlate: Took 0.011684 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.06.16-21.28.41:289][  0]LogSlate: Took 0.006599 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.06.16-21.28.41:729][  0]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2025.06.16-21.28.41:755][  0]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2025.06.16-21.28.42:081][  0]LogStall: Startup...
+[2025.06.16-21.28.42:085][  0]LogStall: Startup complete.
+[2025.06.16-21.28.42:176][  0]LogLoad: (Engine Initialization) Total time: 43.71 seconds
+[2025.06.16-21.28.42:543][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2025.06.16-21.28.42:543][  0]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="1000"
+[2025.06.16-21.28.42:653][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.16-21.28.42:657][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2025.06.16-21.28.42:989][  0]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2025.06.16-21.28.43:001][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 344.303 ms
+[2025.06.16-21.28.43:431][  1]LogAssetRegistry: AssetRegistryGather time 10.1650s: AssetDataDiscovery 0.0649s, AssetDataGather 10.0487s, StoreResults 0.0514s. Wall time 19.7420s.
+	NumCachedDirectories 0. NumUncachedDirectories 1451. NumCachedFiles 0. NumUncachedFiles 7376.
+	BackgroundTickInterruptions 0.
+[2025.06.16-21.28.43:459][  1]LogPlacementMode: Display: The Asset Registry is done with its initial scan, the list of placeable classes has been updated.
+[2025.06.16-21.28.43:468][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000000 seconds (updated 0 objects)
+[2025.06.16-21.28.43:469][  1]LogSourceControl: Uncontrolled asset discovery started...
+[2025.06.16-21.28.43:611][  1]LogStreaming: Display: FlushAsyncLoading(410,411,412,413,414,415,416,417,418,419,420,421,422,423,424,425,426,427,428,429,430,431,432,433,434,435,436,437,438,439,440,441,442,443,444,445,446,447,448,449,450,451,452,453,454,455,456,457,458,459,460,461,462,463,464,465,466,467,468,469,470,471,472,473): 64 QueuedPackages, 0 AsyncPackages
+[2025.06.16-21.28.43:728][  1]LogSourceControl: Uncontrolled asset discovery finished in 0.259184 seconds (Found 7352 uncontrolled assets)
+[2025.06.16-21.28.43:899][  2]LogEOSSDK: LogEOS: SDK Config Platform Update Request Successful, Time: 8.127334
+[2025.06.16-21.28.43:900][  2]LogEOSSDK: LogEOSAnalytics: EOS SDK Analytics disabled for route [1].
+[2025.06.16-21.28.43:901][  2]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8.185230
+[2025.06.16-21.28.44:982][  7]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2025.06.16-21.28.45:646][  9]LogEOSSDK: LogEOS: SDK Config Product Update Request Successful, Time: 9.602098
+[2025.06.16-21.28.45:648][  9]LogEOSSDK: LogEOS: SDK Config Data - Watermark: -987497851
+[2025.06.16-21.28.45:648][  9]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9.602098, Update Interval: 344.131592
